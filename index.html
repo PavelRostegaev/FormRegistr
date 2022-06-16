@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="block">
+
+            <section class="block__item block-item">
+                <h2 class="block-item__title">У Вас уже есть аккаунт?</h2>
+                <button class="block-item__btn singin-btn">Войти</button>
+            </section>
+            <section class="block__item block-item">
+                <h2 class="block-item__title">У Вас нет аккаунта?</h2>
+                <button class="block-item__btn singup-btn">Зарегистрироваться</button>
+            </section>
+
+        </div>
+        
+        <div class="form-box">
+            <form action="#" class="form form_singin">
+                <h3 class="form__title">Вход</h3>
+                <p><input type="text" placeholder="Логин" class="form__input"></p>
+                <p><input type="password" class="form__input"></p>
+                <p><button class="form__btn">Войти</button></p>
+                <p><a href="#" class="form__forgot">Восстановить пароль</a></p>
+            </form>
+
+            <form action="#" class="form form_singup">
+                <h3 class="form__title">Регистрация</h3>
+                <p><input type="text" placeholder="Логин" class="form__input"></p>
+                <p><input type="email" class="form__input" placeholder="email"></p>
+                <p><input type="password" class="form__input" placeholder="Пароль"></p>
+                <p><input type="password" class="form__input" placeholder="Подтвердите пароль"></p>
+                <p><button class="form__btn form__btn_singup">Зарегистрироваться</button></p>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
